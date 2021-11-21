@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
+
+#testimonial2 {display:none;}
+
+*{
+    margin:0;
+    padding:0;
+    font-family: "Inter";
+}
+body
+{
+    background:url("images/pattern-bg.svg") no-repeat 5vw -5vh / 90vw 50vh;
+}
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@keyframes fadeout {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+}
+
+.testimonial
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5vh auto 0 auto;
+    width:100vw;
+    animation: fadein 1s;
+}
+.pp-container
+{
+    width: 70%;  
+    margin:0 0 5em 0;          
+}
+.pp
+{
+    width:100%;
+    margin: auto 0;
+    border-radius: 0.5em;
+    box-shadow: 0px 10px 20px 5px rgba(82, 82, 82, 0.459);
+}
+.arrows
+{
+    position: absolute;
+    left: calc(50% - 2.5em);
+    top:36vh;
+
+    background-color:white;
+    border-radius: 2em;    
+    padding: 0.8em 1em;
+    width: 15%;
+
+    display:flex;
+    justify-content: space-between;   
+}
+.left-arrow
+{
+    width:25%;
+}
+.right-arrow
+{
+    width:25%;
+}
+.left-arrow:hover
+{
+    cursor: pointer;
+    opacity: 0.7;
+}
+.right-arrow:hover
+{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.txt-container
+{
+    width: 80%;
+    text-align: center;
+}
+.txt
+{
+    line-height:1.5em;
+    margin-bottom:1em;
+}
+.author-name
+{
+    font-weight: bold;    
+}
+.author-job
+{
+    color: rgb(160, 160, 160);
+}

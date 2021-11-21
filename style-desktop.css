@@ -1,0 +1,51 @@
+@media all and (min-width: 900px)
+{
+    body
+    {
+        background:url("images/pattern-bg.svg") no-repeat 45vw 10vh / 50vw 80vh, url("images/pattern-quotes.svg") no-repeat 18vw 30vh, url("images/pattern-curve.svg") no-repeat left 81vh;
+    }
+    .testimonial
+    {
+        flex-direction: row-reverse;
+        width:80%;        
+        margin: 20vh auto 0 auto;
+
+    }
+    .txt-container
+    {
+        position: relative;
+        left:5em;
+        width: 100vw;   
+        text-align: left;
+    }
+    .txt
+    {
+        font-size:2em;
+        width:100%;        
+    }
+    .pp-container
+    {        
+        width: 100%;  
+        margin:0 0 5em 0;          
+    }
+    .author-infos
+    {
+        display: flex;
+    }
+    .author-name
+    {
+        margin-right: 1em;
+    }
+    .author-job
+    {
+        color: rgb(160, 160, 160);
+    }
+    .arrows
+    {
+        left:auto;
+        top:auto;
+        right:35vw;
+        bottom: 14vh;
+        width: 7%;
+    }
+}
